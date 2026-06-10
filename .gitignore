@@ -1,0 +1,121 @@
+########################################
+# OS junk
+########################################
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+*.swp
+*.swo
+*~
+
+########################################
+# Editors / IDEs
+########################################
+
+.vs/
+.vscode/
+
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+########################################
+# Build output (core for C projects)
+########################################
+
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+bin/
+intermediate/
+intermediates/
+
+########################################
+# Compiled binaries (C-specific emphasis)
+########################################
+
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.o
+*.pdb
+*.ilk
+
+########################################
+# Compiler / linker logs
+########################################
+
+*.log
+*.tlog
+*.lastbuildstate
+*.tmp
+
+########################################
+# Crash dumps
+########################################
+
+*.dmp
+*.mdmp
+*.crash
+
+########################################
+# External dependencies (optional)
+########################################
+
+vendor/
+third_party/
+external/
+libs/
+
+########################################
+# Local config / secrets
+########################################
+
+.env
+*.key
+*.pem
+config.local.*
+local_settings.*
+
+########################################
+# Build system artifacts (if used)
+########################################
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+########################################
+# Hot reload / dev tooling (optional)
+########################################
+
+hotload/
+livecode/
+reload/
+
+########################################
+# Archives / packaged builds
+########################################
+
+*.zip
+*.tar
+*.tar.gz
+
+########################################
+# Backup files
+########################################
+
+*.bak
+*.backup
+*.orig
