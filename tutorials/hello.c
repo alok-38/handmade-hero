@@ -1,6 +1,7 @@
 #include <windows.h>
 
-int main(void)
+int main()
 {
-    return MessageBox(NULL, "hello, world", "caption", 0);
+    MessageBox(NULL, "Hello, World!", "My App", MB_OK);
+    return 0;
 }
